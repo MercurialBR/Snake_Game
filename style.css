@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body{
-    
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(img/snka-background.jpg);
+    background-size: cover;
+}   
+
+@font-face {
+    font-family: font2d ;
+    src: url(font/font2d.TTF);
+}
+
+h1{
+    font-family: font2d;
+    font-size: 52px;
+}
+
+canvas{
+    border: 12px double black;
 }
